@@ -129,6 +129,24 @@ These metrics are used to evaluate demand prediction accuracy.
 
 ---
 
+## How to Run
+
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+2. Place the `volume.csv` file in the `data/` folder
+
+3. Run the application:
+```bash
+streamlit run app.py
+```
+
+4. Open http://localhost:8501 in your browser
+
+---
+
 ## Team
 
 This project is developed by a team of **4 students**, with clear ownership across:
